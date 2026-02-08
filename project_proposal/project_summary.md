@@ -1,0 +1,47 @@
+# Proposal summary
+
+## Lay summary (100 words)
+Lobbying distorts the democratic process by bypassing voters. Yet, the careers of Members of Parliament intersect with the network of lobbying organisations and their clients. We will map and explain these connections using new government-mandated databases. A central question is whether how voters elect politicians changes politicians’ embeddedness in the lobbying network. Subsequently, we will link the network to the policy debate on regulating lobbying and corruption. Doing so will identify barriers to "anti-sleaze" policies, which have recently come into public focus, by showing whether central players in the lobbying network also influence the policy debate as (distortive) opinion leaders.
+
+## Context (500 words)
+In recent years, liberal democracies like the UK and Germany have been rattled by high-profile cases of legislators violating standards of integrity, for example by creating conflicts of interest by acting as paid lobbyists without declaring outside earnings or affiliations. High-profile scandals with visibility in the media include Rt Own Patterson in the UK and Philipp Amthor in Germany.
+
+Such cases damage trust in democracy and cast a bad light on private interest lobbying, which actually serves vital functions in democracies by providing government branches with valuable expert information on the ground to support policy making. However, in practice, lobbying often takes place in a grey area between evidently corrupt behaviour at one end of the scale and useful policy advice at the other end. Even when legal, lobbying is often secretive and provides incentives for private rent seeking in principal-agent relationships with imperfect oversight and needs to be regulated to avert transgressions and enable effective oversight by voters. De facto, both citizens and private interests want to control legislators and compete for oversight while legislators themselves balance electoral incentives, policy goals, and financial incentives. This creates a dilemma in which legislators are both in charge of regulating lobbying and parliamentary standards while also being subject to these very standards and facing incentives to profit from rule contraventions.
+
+Against this backdrop, both lobbying itself and its regulation are a joint system with interlinked incentives and institutions. Legislators and interest groups benefitting from lobbying should want to contain any policy making to mere symbolic action while those who are less likely to benefit should want to regulate lobbying more strictly to put a spotlight on their own integrity. We should also expect legislators who face electoral punishment without parties as intermediaries (i.e., legislators elected by local constituencies) to display less lobbying overall but more lobbying for local causes or firms. These institutional incentives for lobbying should translate into how legislators connect to lobbyists and private interest groups. In turn, the connectedness of legislators, lobbyists, and interest groups in the lobbying network should also affect how these actors participate in the regulatory policy debate on lobbying by calling for regulatory policy instruments compatible with their own incentives.
+
+## Objectives (500 words)
+
+This joint system can be best modelled as a network, in which legislators, electoral institutions, lobbyists, interest groups, and policy beliefs and preferences are linked in complex ways. We call this networked system the “legislative-private interest complex” and study it using novel data sources, computational tools, and statistical models for interdependent data.
+
+**Objective 1**: In a first step, we aim to describe the legislative-private interest complex by linking these novel data sources into a joint system, mapping it as a knowledge graph and complex network, measuring centrality and opinion leadership by individual actors, and documenting its general properties.
+
+**Objective 2**: In a second step, we aim to investigate if electoral institutions, such as constituency-based versus party list-based election, close versus generous winning margin, information on legislators’ party endorsements, and term-based or lifelong mandate in a bicameral system, make a difference for how prominently legislators become connected to the lobbying network. The project will assess the network embeddedness of legislators and link it to electoral institutions in order to understand how the lobbying system emerges as a function of individual incentives that could be tweaked in a democracy.
+
+**Objective 3**: In a third step, we aim to measure, describe, and model the policy debate on lobbying regulation in the parliament and media as a discourse network in order to investigate how lobbying regulation comes about. The objective is to explain the structure of the debate, including advocacy coalitions and their policy beliefs, the role of individual or organisational policy brokers and opinion leaders and their expressed policy preferences, and the structural evolution of the debate over time. As an important part of this objective, we aim to explain central roles of actors in the regulatory discourse network by their network embeddedness in the lobbying network (and ultimately their institutional characteristics, which may have shaped their lobbying network embeddedness).
+
+**Objective 4**: Finally, we aim to compare these findings between two complementary cases, the UK and Germany, which place a different emphasis on the role of transparency versus accountability in regulating lobbying and also have different electoral institutions. We aim to derive policy recommendations for institutional design based on counterfactual simulations of different institutions in the two cases.
+
+## Significance and originality (500 words)
+
+Together, these objectives serve the overarching goal to develop, for the first time, a comprehensive, systemic, and generative understanding of the legislative-private interest complex in the UK and Germany.
+
+The development of this model will be a major step forward in how we think about lobbying as well as its regulation. It will shape political theories about the effects of electoral institutions on democratic resilience, particularly the relationship between citizens, government, private entities, and mechanisms of oversight.
+
+From a normative perspective, this research will also support robust institutional design through counterfactual simulation. These goals are important given the recent slippage in citizens’ trust in democracy.
+
+As a side-effect, the project will make cutting-edge contributions to network science, computational social science, and statistical modelling of interdependent data.
+
+## Methodology (500 words)
+
+The project employs computational tools like relational or graph databases and web scraping to collect and merge different novel and publicly available data sources, such as lobbying registers, legislator biographies, and all-party group registers, in a single database.
+
+The project then uses higher-order network analysis to analyse the merged dataset for the two respective countries. Networks are system representations in which nodes are connected through ties. Higher-order networks are systems in which multiple types of actors (here: legislators, lobbyists, interest groups, policy beliefs) are connected through multiple types of ties (here: affiliations, client relationships, lobbying ties, public expression) at multiple levels and in a temporal order. This allows us to model the system jointly using novel statistical models for multi-modal, multi-layer, multi-level, temporal networks and simulate system outcomes based on this formalism.
+
+## Ethical issues to be considered (250 words)
+
+The project will rely solely on secondary data from publicly available sources, including open-access parliamentary databases and published news articles. While ethical approval may not be required for the use of these materials in isolation, ethical considerations arise from linking them in ways that could recontextualise public information. We will therefore seek institutional ethical approval prior to data integration and analysis.
+
+The research will construct a network of legislators, lobbyists, interest groups, and policy positions by linking named individuals and organisations across sources. While all data points are public, their aggregation may reveal or suggest relationships not explicitly intended for joint disclosure. This could risk reputational harm, especially where affiliations might be interpreted as lobbying or influence without sufficient context. For example, a legislator could receive a honorarium for providing legal expertise to a firm without being a lobbying target of the firm, which could be misconstrued as a lobbying tie creating a conflict of interest.
+
+To mitigate these risks, we will adopt a conservative approach to interpretation and avoid sensational or individualised framing. Findings will be presented using aggregated or abstracted role-based descriptions, unless a specific case is clearly in the public interest and supported by robust evidence. We will weigh any disclosure risks against academic value, societal benefit, and measurement uncertainty, and ensure compliance with relevant data protection and research ethics standards.
